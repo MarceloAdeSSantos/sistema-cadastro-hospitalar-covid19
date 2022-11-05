@@ -31,18 +31,6 @@ public class DadosDosPacientes {
 		this.comorbidade2 = comorbidade2;
 	}
 
-	public DadosDosPacientes(String nome, String cpf, String telefone, String endereco1, String endereco2,
-			LocalDate nascimento, String email, LocalDate diagnostico) {
-		this.nome = nome;
-		this.cpf = cpf;
-		this.telefone = telefone;
-		this.endereco1 = endereco1;
-		this.endereco2 = endereco2;
-		this.nascimento = nascimento;
-		this.email = email;
-		this.diagnostico = diagnostico;
-	}
-
 	public String getNome() {
 		return nome;
 	}
